@@ -43,4 +43,13 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-
+SELECT 
+  K0, 
+  AVG(c21) 
+FROM 
+  tbl1, 
+  tbl2 
+WHERE 
+  c22=c13 AND 
+  c13 > 400 
+GROUP BY K0
