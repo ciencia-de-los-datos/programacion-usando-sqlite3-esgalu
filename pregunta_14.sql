@@ -45,7 +45,7 @@
 --  
 SELECT 
   K0, 
-  AVG(c21) 
+  avg(c21) 
 FROM 
   tbl1, 
   tbl2 
